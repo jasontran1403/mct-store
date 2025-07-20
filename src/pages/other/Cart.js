@@ -190,14 +190,8 @@ const Cart = ({
                                 </td>
                                 <td className="product-subtotal">
                                   {discountedPrice !== null
-                                    ? currency.currencySymbol +
-                                      (
-                                        finalDiscountedPrice * cartItem.quantity
-                                      ).toFixed(2)
-                                    : currency.currencySymbol +
-                                      (
-                                        finalProductPrice * cartItem.quantity
-                                      ).toFixed(2)}
+                                    ? (finalDiscountedPrice * cartItem.quantity).toFixed(2)
+                                    : (finalProductPrice * cartItem.quantity).toFixed(2)} MCT
                                 </td>
 
                                 <td className="product-remove">

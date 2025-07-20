@@ -1923,7 +1923,7 @@
   {
     "id": "70",
     "sku": "asdf192",
-    "name": "旋转磁力振动按摩鞋垫",
+    "name": "Bronze",
     "price": 1000,
     "discount": 0,
     "new": true,
@@ -1934,12 +1934,12 @@
     "stock": 10,
     "image": [
       "/assets/img/product/demo/lot1.png",
-      "/assets/img/product/demo/lot2.png",
+      "/assets/img/product/demo/lot1.png",
       "/assets/img/product/demo/lot3.png",
       "/assets/img/product/demo/lot4.png"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "You receive 1,000 MCT + 1 Shoe Pad Equivilan ~ 238 USDT",
+    "fullDescription": "Receive daily staking 3.3 MCT, Total max out receive 2,000 MCT"
   },
   {
     "id": "71",
@@ -1965,47 +1965,45 @@
   },
   {
     "id": "72",
-    "sku": "asdf194",
-    "name": "Lorem ipsum accessories five",
-    "price": 12.35,
-    "discount": 20,
+    "sku": "asdf192",
+    "name": "Silver",
+    "price": 3000,
+    "discount": 0,
     "new": true,
     "rating": 5,
-    "saleCount": 20,
+    "saleCount": 30,
     "category": ["accessories"],
     "tag": ["accessories"],
     "stock": 10,
     "image": [
-      "/assets/img/product/accessories/5.jpg",
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg"
+      "/assets/img/product/demo/lot1.png",
+      "/assets/img/product/demo/lot1.png",
+      "/assets/img/product/demo/lot3.png",
+      "/assets/img/product/demo/lot4.png"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "You receive 2,000 MCT + 2 Shoe Pad Equivilan ~ 663 USDT",
+    "fullDescription": "Receive staking daily 11 MCT/day, Total max out receive 6,000 MCT"
   },
   {
     "id": "73",
-    "sku": "asdf195",
-    "name": "Lorem ipsum accessories six",
-    "price": 12.45,
-    "discount": 20,
+    "sku": "asdf192",
+    "name": "Gold",
+    "price": 10000,
+    "discount": 0,
     "new": true,
     "rating": 5,
-    "saleCount": 19,
+    "saleCount": 30,
     "category": ["accessories"],
     "tag": ["accessories"],
-    "stock": 30,
+    "stock": 10,
     "image": [
-      "/assets/img/product/accessories/6.jpg",
-      "/assets/img/product/accessories/7.jpg",
-      "/assets/img/product/accessories/8.jpg",
-      "/assets/img/product/accessories/9.jpg",
-      "/assets/img/product/accessories/10.jpg"
+      "/assets/img/product/demo/lot1.png",
+      "/assets/img/product/demo/lot1.png",
+      "/assets/img/product/demo/lot3.png",
+      "/assets/img/product/demo/lot4.png"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "You receive 10,000 MCT + 11 Shoe Pad Equivilan ~ 2,380 USDT",
+    "fullDescription": "Receive staking daily 40 MCT/day, Total max out receive 20,000 MCT"
   },
   {
     "id": "74",
