@@ -135,14 +135,14 @@ const ProductGridSingleThree = ({
                 {discountedPrice !== null ? (
                   <Fragment>
                     <span>
-                      {finalDiscountedPrice} MCT
+                      {finalDiscountedPrice} CV
                     </span>{" "}
                     <span className="old">
-                      {finalProductPrice} MCT
+                      {finalProductPrice} CV
                     </span>
                   </Fragment>
                 ) : (
-                  <span>{finalProductPrice} MCT</span>
+                  <span>{finalProductPrice} CV</span>
                 )}
               </div>
             </div>

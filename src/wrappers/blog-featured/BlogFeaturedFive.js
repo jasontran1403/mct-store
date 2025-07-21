@@ -11,8 +11,7 @@ const BlogFeaturedFive = ({ spaceTopClass, spaceBottomClass }) => {
         spaceBottomClass ? spaceBottomClass : ""
       }`}
     >
-      <div className="container">
-        {/* section title */}
+      {/* <div className="container">
         <SectionTitleSeven
           titleText="Our Blog"
           positionClass="text-center"
@@ -29,7 +28,7 @@ const BlogFeaturedFive = ({ spaceTopClass, spaceBottomClass }) => {
             );
           })}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

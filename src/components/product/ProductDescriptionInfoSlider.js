@@ -46,13 +46,13 @@ const ProductDescriptionInfoSlider = ({
       <div className="product-details-price justify-content-center">
         {discountedPrice !== null ? (
           <Fragment>
-            <span>{finalDiscountedPrice} MCT</span>{" "}
+            <span>{finalDiscountedPrice} CV</span>{" "}
             <span className="old">
-              {finalProductPrice} MCT
+              {finalProductPrice} CV
             </span>
           </Fragment>
         ) : (
-          <span>{finalProductPrice} MCT</span>
+          <span>{finalProductPrice} CV</span>
         )}
       </div>
       {product.rating && product.rating > 0 ? (

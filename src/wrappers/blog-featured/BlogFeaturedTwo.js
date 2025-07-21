@@ -7,7 +7,7 @@ import SectionTitleTwo from "../../components/section-title/SectionTitleTwo";
 const BlogFeaturedTwo = ({ spaceBottomClass }) => {
   return (
     <div className={`blog-area ${spaceBottomClass ? spaceBottomClass : ""}`}>
-      <div className="container">
+      {/* <div className="container">
         <SectionTitleTwo
           titleText="OUR BLOG"
           subTitleText="Lorem ipsum dolor sit amet conse ctetu."
@@ -21,7 +21,7 @@ const BlogFeaturedTwo = ({ spaceBottomClass }) => {
             );
           })}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

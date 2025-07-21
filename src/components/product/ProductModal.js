@@ -143,14 +143,14 @@ function ProductModal(props) {
                   {discountedprice !== null ? (
                     <Fragment>
                       <span>
-                        {finaldiscountedprice} MCT
+                        {finaldiscountedprice} CV
                       </span>{" "}
                       <span className="old">
-                        {finalproductprice} MCT
+                        {finalproductprice} CV
                       </span>
                     </Fragment>
                   ) : (
-                    <span>{finalproductprice} MCT</span>
+                    <span>{finalproductprice} CV</span>
                   )}
                 </div>
                 {product.rating && product.rating > 0 ? (

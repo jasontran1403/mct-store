@@ -115,15 +115,15 @@ const Wishlist = ({
                                   {discountedPrice !== null ? (
                                     <Fragment>
                                       <span className="amount old">
-                                        {finalProductPrice} MCT
+                                        {finalProductPrice} CV
                                       </span>
                                       <span className="amount">
-                                        {finalDiscountedPrice} MCT
+                                        {finalDiscountedPrice} CV
                                       </span>
                                     </Fragment>
                                   ) : (
                                     <span className="amount">
-                                      {finalProductPrice} MCT
+                                      {finalProductPrice} CV
                                     </span>
                                   )}
                                 </td>

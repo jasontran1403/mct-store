@@ -135,15 +135,15 @@ const Cart = ({
                                   {discountedPrice !== null ? (
                                     <Fragment>
                                       <span className="amount old">
-                                        {finalProductPrice} MCT
+                                        {finalProductPrice} CV
                                       </span>
                                       <span className="amount">
-                                        {finalDiscountedPrice} MCT
+                                        {finalDiscountedPrice} CV
                                       </span>
                                     </Fragment>
                                   ) : (
                                     <span className="amount">
-                                      {finalProductPrice} MCT
+                                      {finalProductPrice} CV
                                     </span>
                                   )}
                                 </td>
@@ -191,7 +191,7 @@ const Cart = ({
                                 <td className="product-subtotal">
                                   {discountedPrice !== null
                                     ? (finalDiscountedPrice * cartItem.quantity).toFixed(2)
-                                    : (finalProductPrice * cartItem.quantity).toFixed(2)} MCT
+                                    : (finalProductPrice * cartItem.quantity).toFixed(2)} CV
                                 </td>
 
                                 <td className="product-remove">
@@ -304,14 +304,14 @@ const Cart = ({
                       <h5>
                         Total products{" "}
                         <span>
-                          {cartTotalPrice.toFixed(2)} MCT
+                          {cartTotalPrice.toFixed(2)} CV
                         </span>
                       </h5>
 
                       <h4 className="grand-totall-title">
                         Grand Total{" "}
                         <span>
-                          {cartTotalPrice.toFixed(2)} MCT
+                          {cartTotalPrice.toFixed(2)} CV
                         </span>
                       </h4>
                       <Link to={process.env.PUBLIC_URL + "/checkout"}>

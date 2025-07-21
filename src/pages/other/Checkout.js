@@ -154,9 +154,9 @@ const Checkout = ({ location, cartItems, currency }) => {
 
                               discountedPrice != null
                                 ? (cartTotalPrice +=
-                                    finalDiscountedPrice * cartItem.quantity)
+                                  finalDiscountedPrice * cartItem.quantity)
                                 : (cartTotalPrice +=
-                                    finalProductPrice * cartItem.quantity);
+                                  finalProductPrice * cartItem.quantity);
                               return (
                                 <li key={key}>
                                   <span className="order-middle-left">
@@ -164,15 +164,13 @@ const Checkout = ({ location, cartItems, currency }) => {
                                   </span>{" "}
                                   <span className="order-price">
                                     {discountedPrice !== null
-                                      ? currency.currencySymbol +
-                                        (
-                                          finalDiscountedPrice *
-                                          cartItem.quantity
-                                        ).toFixed(2)
-                                      : currency.currencySymbol +
-                                        (
-                                          finalProductPrice * cartItem.quantity
-                                        ).toFixed(2)}
+                                      ? (
+                                        finalDiscountedPrice *
+                                        cartItem.quantity
+                                      ).toFixed(2)
+                                      : (
+                                        finalProductPrice * cartItem.quantity
+                                      ).toFixed(2)} CV
                                   </span>
                                 </li>
                               );

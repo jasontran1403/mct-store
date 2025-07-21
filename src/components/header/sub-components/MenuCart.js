@@ -51,8 +51,8 @@ const MenuCart = ({ cartData, currency, deleteFromCart }) => {
                     <h6>Qty: {single.quantity}</h6>
                     <span>
                       {discountedPrice !== null
-                        ? finalDiscountedPrice + " MCT"
-                        : finalProductPrice + " MCT"}
+                        ? finalDiscountedPrice + " CV"
+                        : finalProductPrice + " CV"}
                     </span>
                     {single.selectedProductColor &&
                     single.selectedProductSize ? (
@@ -77,7 +77,7 @@ const MenuCart = ({ cartData, currency, deleteFromCart }) => {
             <h4>
               Total :{" "}
               <span className="shop-total">
-                {cartTotalPrice.toFixed(2)} MCT
+                {cartTotalPrice.toFixed(2)} CV
               </span>
             </h4>
           </div>
